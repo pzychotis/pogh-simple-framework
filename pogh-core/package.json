@@ -1,0 +1,16 @@
+{
+  "name": "@pogh/core",
+  "version": "0.0.1",
+  "description": "The core components for the POGH Application Framework.",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pzychotis/pogh-simple-framework.git"
+  },
+  "author": "Patrick Ortiz <github: pzychotis>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pzychotis/pogh-simple-framework/issues"
+  },
+  "homepage": "https://github.com/pzychotis/pogh-simple-framework#readme"
+}
