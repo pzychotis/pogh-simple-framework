@@ -7,7 +7,9 @@
     "url": "git+ssh://git@github.com/pzychotis/pogh-simple-framework.git"
   },
   "scripts": {
-    "build": "npm run build --workspaces"
+    "build": "npm run build --workspaces",
+    "serve": "npm run serve --workspaces",
+    "test": "npm run test --workspaces"
   },
   "keywords": [
     "javascript",
@@ -21,7 +23,8 @@
   },
   "homepage": "https://github.com/pzychotis/pogh-simple-framework#readme",
   "workspaces": [
-    "pogh-core"
+    "pogh-core",
+    "pogh-examples"
   ],
   "devDependencies": {
     "typescript": "^5.5.4"

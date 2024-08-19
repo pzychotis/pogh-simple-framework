@@ -2,7 +2,9 @@
     "compilerOptions": {
         "allowJs": true,
         "declaration": true,
+        "declarationMap": true,
         "emitDeclarationOnly": true,
-        "module": "ESNext"
+        "module": "ESNext",
+        "target": "ESNext",
     }
 }

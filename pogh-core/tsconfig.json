@@ -1,6 +1,7 @@
 {
+    "compilerOptions": {
+        "declarationDir": "types",
+    },
     "extends": "../tsconfig.base.json",
-    "files": [
-        "index.mjs"
-    ]
+    "includes": ["src/**/*.mjs"]
 }
