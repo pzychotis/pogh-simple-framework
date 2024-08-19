@@ -3,9 +3,13 @@
   "version": "0.0.1",
   "description": "The core components for the POGH Application Framework.",
   "main": "index.mjs",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/pzychotis/pogh-simple-framework.git"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
   },
   "author": "Patrick Ortiz <github: pzychotis>",
   "license": "Apache-2.0",
