@@ -1,0 +1,25 @@
+{
+  "name": "@pogh/examples",
+  "version": "0.0.1",
+  "description": "Example usages of the various components of the POGH Application Framework.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "",
+    "build": "",
+    "serve": "http-server ./ --port=8080 -a=localhost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pzychotis/pogh-simple-framework.git"
+  },
+  "author": "Patrick Ortiz <github: pzychotis>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pzychotis/pogh-simple-framework/issues"
+  },
+  "homepage": "https://github.com/pzychotis/pogh-simple-framework#readme",
+  "dependencies": {
+    "@pogh/core": "*",
+    "http-server": "^14.1.1"
+  }
+}
